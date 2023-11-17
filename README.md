@@ -131,6 +131,8 @@ Enhancing customer service within financial institutions involves a comprehensiv
 
 ### Model Performance 
 
+#### Examples of generated complaints by each large language model
+
 #### Type of model 1: Llama 2 7B (API) - Main Model
 
 #### Type of model 2: Llama 2 7B (Chat)
@@ -145,7 +147,6 @@ Enhancing customer service within financial institutions involves a comprehensiv
 “I recently discovered two inquiries on my credit report from CBNA, which I did not authorize or initiate. I understand that this can be a frustrating experience, and I want to work with you to resolve this issue. I would appreciate your assistance in removing these inquiries from my report, as they are not accurate and may be affecting my credit score. Please let me know the steps I can take to resolve this matter."
 
 * **More Harsh**:
-
 "I am outraged and appalled by the recent inquiries made on my credit report by CBNA, despite my explicit denial of any authorization. Not only is this a blatant violation of my privacy and security, but it also undermines my hard-earned credit score. I demand immediate action to remove these fraudulent inquiries and protect my personal information. I will not hesitate to take legal action if necessary, and I expect a prompt resolution to this matter. How dare you attempt to sully my good name and creditworthiness? I will not be ignored!"
 
 #### Type of model 3: Falcon
@@ -173,7 +174,6 @@ Enhancing customer service within financial institutions involves a comprehensiv
 
 
 * **More Harsh**:
-
 “This unauthorized inquiry from CBNA on XX/XX/2021 is unacceptable. I have diligently worked on my credit, and false information like this is detrimental. I will not hesitate to take legal action against identity theft. Remove this immediately"
 
 ### Model Evaluation 
