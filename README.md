@@ -20,44 +20,63 @@
 
 * Data dictionary: Originally, the dataset contained over 20 columns, but for the project's purpose, the focus was narrowed down to the main factors that significantly influence the primary target variable.
 
-| Name                      | Modeling Role | Measurement Level | Description                                                                                     |
-|---------------------------|---------------|-------------------|-------------------------------------------------------------------------------------------------|
-| high priced               | target        | binary            | Binary target indicating whether the APR charged for a mortgage is 1.5% or more above the survey-based estimate of similar mortgages    |
-| conforming                | input         | binary            | Binary numeric input indicating whether the mortgage conforms to normal standards (1) or is different (0)                              |
-| debt to income ratio std  | input         | numeric           | Standardized debt-to-income ratio for mortgage applicants                                        |
-| debt to income ratio missing  | input         | binary        | Binary numeric input serving as a missing marker (1) for debt-to-income ratio std                 |
-| income std                | input         | numeric           | Standardized income for mortgage applicants                                                     |
-| loan amount std           | input         | numeric           | Standardized amount of the mortgage for applicants                                              |
-| intro rate period std     | input         | numeric           | Standardized introductory rate period for mortgage applicants                                   |
-| loan to value ratio std   | input         | numeric           | Ratio of the mortgage size to the value of the property for mortgage applicants                 |
-| no intro rate period std  | input         | binary            | Binary numeric input indicating whether a mortgage does not include an introductory rate period |
-| property value std        | input         | numeric           | Value of the mortgaged property                                                                 |
-| term 360                  | input         | binary            | Binary numeric input indicating whether the mortgage is a standard 360-month mortgage (1) or a different type (0)                  |
+| Field name                   | Description                                                                                                                                                                                | Measurement Level   |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
+| Date received                | The date the CFPB received the complaint. For example, “05/25/2013.”                                                                                                                      | Nominal             |
+| Product                      | The type of product the consumer identified in the complaint. For example, “Checking or savings account” or “Student loan.”                                                                 | Nominal             |
+| Sub-product                  | The type of sub-product the consumer identified in the complaint. For example, “Checking account” or “Private student loan.”                                                                 | Nominal             |
+| Issue                        | The issue the consumer identified in the complaint. For example, “Managing an account” or “Struggling to repay your loan.”                                                                   | Nominal             |
+| Sub-issue                    | The sub-issue the consumer identified in the complaint. For example, “Deposits and withdrawals” or “Problem lowering your monthly payments.”                                              | Nominal             |
+| Consumer complaint narrative | Consumer complaint narrative is the consumer-submitted description of “what happened” from the complaint. Consumers must opt-in to share their narrative.                                    | Text                |
+| Company public response      | The company’s optional, public-facing response to a consumer’s complaint. Companies can choose to select a response from a pre-set list of options that will be posted on the public database. | Nominal             |
+| Company                      | The complaint is about this company. For example, “ABC Bank.”                                                                                                                               | Nominal             |
+| State                        | The state of the mailing address provided by the consumer.                                                                                                                                  | Nominal             |
+| ZIP code                     | The mailing ZIP code provided by the consumer. This field may: i) include the first five digits of a ZIP code; ii) include the first three digits of a ZIP code (if the consumer consented to publication of their complaint narrative); or iii) be blank (if ZIP codes have been submitted with non-numeric values, if there are less than 20,000 people in a given ZIP code, or if the complaint has an address outside of the United States). | Mixed               |
+| Tags                         | Data that supports easier searching and sorting of complaints submitted by or on behalf of consumers. For example, complaints where the submitter reports the age of the consumer as 62 years or older are tagged “Older American.” Complaints submitted by or on behalf of a servicemember or the spouse or dependent of a servicemember are tagged “Servicemember.” Servicemember includes anyone who is active duty, National Guard, or Reservist, as well as anyone who previously served and is a veteran or retiree. | Nominal             |
+| Consumer consent provided?  | Identifies whether the consumer opted in to publish their complaint narrative. We do not publish the narrative unless the consumer consents, and consumers can opt-out at any time.              | Nominal             |
+| Submitted via                | How the complaint was submitted to the CFPB. For example, “Web” or “Phone.”                                                                                                                 | Nominal             |
+| Date sent to company         | The date the CFPB sent the complaint to the company.                                                                                                                                       | Nominal             |
+| Company response to consumer | This is how the company responded. For example, “Closed with explanation.”                                                                                                                  | Nominal             |
+| Timely response?             | Whether the company gave a timely response. For example, “Yes” or “No.”                                                                                                                     | Nominal             |
+| Consumer disputed?           | Whether the consumer disputed the company’s response.                                                                                                                                      | Nominal             |
+| Complaint ID                 | The unique identification number for a complaint.                                                                                                                                          | Nominal             |
+
 
 
 * **Source of training data**: Consumer Finance Protection Beauru (suggested by the Wells Fago team)
 * **Number of rows in training data**:
   * training  rows: 112253 rows
 
-* **Columns used as inputs in the final model**:
-```
-
-rem_x_names = ['term_360',
- 'no_intro_rate_period_std',
- 'property_value_std',
- 'intro_rate_period_std',
- 'income_std',
- 'debt_to_income_ratio_std',
- 'conforming']
-
-```
-* **Column(s) used as target(s) in the final model**: 'high_priced'
+* **Column(s) used as target(s) in the final model**: 'Consumer complaint narrative'
   
 ### Model Details 
-* **Type of model**: XGBoost
+* **Type of model 1**: Llama 2 7B (API)
 * **Software used to implement the model**: Python, xgboost
 * **Version of the modeling software**: 3.10.9, 1.7.5
 
+* **Type of model 2**: Llama 2 7B (Chat)
+* **Software used to implement the model**: Python, Together, langchain , Llama 2 7B
+* **Version of the modeling software**: 3.10.2, 1.0.0 , 0.0.327, 2.7b
+
+* **Type of model 3**: Falcon
+* **Software used to implement the model**: Python, xgboost
+* **Version of the modeling software**: 3.10.9, 1.7.5
+
+* **Type of model 4**: Red Pajama
+* **Software used to implement the model**: Python, xgboost
+* **Version of the modeling software**: 3.10.9, 1.7.5
+
+* **Type of model 5**: Red Pajama
+* **Software used to implement the model**: Python, xgboost
+* **Version of the modeling software**: 3.10.9, 1.7.5
+
+* **Type of model 6**: Mistral
+* **Software used to implement the model**: Python, xgboost
+* **Version of the modeling software**: 3.10.9, 1.7.5
+
+* **Type of model 7**: GPT 3.5 Turbo
+* **Software used to implement the model**: Python, openai
+* **Version of the modeling software**: 3.10.2, 3.5
 ### Exploratory Data Analysis 
 
 ### Methodology 
