@@ -154,4 +154,3 @@ Enhancing customer service within financial institutions involves a comprehensiv
     
 * **Describe any unexpected or results encountered during training**:
   
-* **Metrics used to evaluate the best remediated model**:
