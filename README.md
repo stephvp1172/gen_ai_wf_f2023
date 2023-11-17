@@ -131,7 +131,7 @@ Enhancing customer service within financial institutions involves a comprehensiv
 
 ### Model Performance 
 
-#### Examples of generated complaints by each large language model
+**Examples of generated complaints by each large language model**
 
 #### Type of model 1: Llama 2 7B (API) - Main Model
 
