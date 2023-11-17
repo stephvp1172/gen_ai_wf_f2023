@@ -45,7 +45,7 @@ Enhancing customer service within financial institutions involves a comprehensiv
 | Complaint ID                 | The unique identification number for a complaint.                                                                                                                                          | Nominal             |
 
 
-* **Source of training data**: Consumer Finance Protection Beauru (suggested by the Wells Fago team)
+* **Source of training data**: Consumer Finance Protection Beauru (suggested by the Wells Fargo team)
 * **Number of rows in training data**:
   * training  rows: 176029 rows after removing null values.
 
