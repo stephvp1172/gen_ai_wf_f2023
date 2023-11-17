@@ -131,6 +131,51 @@ Enhancing customer service within financial institutions involves a comprehensiv
 
 ### Model Performance 
 
+#### Type of model 1: Llama 2 7B (API) - Main Model
+
+#### Type of model 2: Llama 2 7B (Chat)
+
+* **Original complaint**:
+"I have two recent inquires one from XX/XX/2021 and one from XX/XX/2021 from a place called CBNA. This was not done nor authorized by me. When I XXXX this place, its states this place is in New York, I'm in XXXX XXXX, there's nothing this company can do for me. Also, when I called XXXX when I noticed the first inquiry they said this was a credit card inquiry. I have a bank as well as a bank card, if I wanted a credit card I would just go through my bank, I wouldn't even go through the trouble of going somewhere else, let alone applying twice within 2 weeks of the first time. That's just nonsense. A few years ago I filed a police report for identity thief and if needed I can do it again for this. I have been working really hard on my credit and the last thing I need is false / fraudulent information on my report. I would've contacted CBNA but honestly I don't even know where to start, or what to say. What do you say to a company you've never spoke too? However, I will do what needs to be done to get this removed."
+
+* **Equal Complaint Synthesis**:
+“I received unauthorized inquiries from CBNA on XX/XX/2021 and XX/XX/2021. They claim to be in New York, but I'm in XXXX XXXX. I already have a bank and a bank card, so I don't need a credit card. I filed a police report for identity theft before and will do it again if necessary. I don't know how to contact CBNA, but I'll take action to remove this.”
+
+* **Less Harsh**:
+“I recently discovered two inquiries on my credit report from CBNA, which I did not authorize or initiate. I understand that this can be a frustrating experience, and I want to work with you to resolve this issue. I would appreciate your assistance in removing these inquiries from my report, as they are not accurate and may be affecting my credit score. Please let me know the steps I can take to resolve this matter."
+
+* **More Harsh**:
+
+"I am outraged and appalled by the recent inquiries made on my credit report by CBNA, despite my explicit denial of any authorization. Not only is this a blatant violation of my privacy and security, but it also undermines my hard-earned credit score. I demand immediate action to remove these fraudulent inquiries and protect my personal information. I will not hesitate to take legal action if necessary, and I expect a prompt resolution to this matter. How dare you attempt to sully my good name and creditworthiness? I will not be ignored!"
+
+#### Type of model 3: Falcon
+
+
+#### Type of model 4: Red Pajama
+
+
+#### Type of model 5: Red Pajama
+
+
+#### Type of model 6: Mistral
+
+
+#### Type of model 7: GPT 3.5 Turbo
+
+* **Original complaint**:
+"I have two recent inquires one from XX/XX/2021 and one from XX/XX/2021 from a place called CBNA. This was not done nor authorized by me. When I XXXX this place, its states this place is in New York, I'm in XXXX XXXX, there's nothing this company can do for me. Also, when I called XXXX when I noticed the first inquiry they said this was a credit card inquiry. I have a bank as well as a bank card, if I wanted a credit card I would just go through my bank, I wouldn't even go through the trouble of going somewhere else, let alone applying twice within 2 weeks of the first time. That's just nonsense. A few years ago I filed a police report for identity thief and if needed I can do it again for this. I have been working really hard on my credit and the last thing I need is false / fraudulent information on my report. I would've contacted CBNA but honestly I don't even know where to start, or what to say. What do you say to a company you've never spoke too? However, I will do what needs to be done to get this removed."
+
+* **Equal Complaint Synthesis**:
+“I received unauthorized inquiries from CBNA on XX/XX/2021 and XX/XX/2021. They claim to be in New York, but I'm in XXXX XXXX. I already have a bank and a bank card, so I don't need a credit card. I filed a police report for identity theft before and will do it again if necessary. I don't know how to contact CBNA, but I'll take action to remove this.”
+
+* **Less Harsh**:
+“I recently noticed two unauthorized inquiries on my credit report from CBNA on XX/XX/2021 and XX/XX/2021. I'm concerned about false information affecting my hard-earned credit. Unsure how to approach CBNA, but determined to resolve this issue promptly.”
+
+
+* **More Harsh**:
+
+“This unauthorized inquiry from CBNA on XX/XX/2021 is unacceptable. I have diligently worked on my credit, and false information like this is detrimental. I will not hesitate to take legal action against identity theft. Remove this immediately"
+
 ### Model Evaluation 
 
 ### Ethical Concerns 
