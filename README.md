@@ -13,7 +13,7 @@
 
 * **Business Value**: Enhancing educational value for students studying mortgage lending in an academic setting.
 * **Objective**: Providing practical experience in responsible machine learning projects for educational purposes.
-* **Intended Users** : MSBA students and educators in the academic context of responsible machine learning.
+* **Intended Users** : Wells Fargo Team, Patrick Hall, and GWU Students in DNSC 6317
 * **Additional Information** : Valuable educational resource for GWU students.
   
 ### Training Data
