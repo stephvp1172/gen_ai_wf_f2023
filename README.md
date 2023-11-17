@@ -1,9 +1,6 @@
 # Generative AI Practicum Project - GWU MSBA Fall 2023 Model Card
 ## Generating datasets for validating complaint-classification NLP Models
 
-### Background :
-Financial institutions can better serve customers by understanding customer complaints. One part of better understanding customer complaints is to make sure written complaints are properly categorized and routed to the proper team for action. Part of this is accomplished or could be accomplished using natural language processing (NLP) models to classify potential customer complaints. For example, an NLP model may be able to classify a paragraph of text as a “Serious Complaint, a “Minor Complaint,” or “Not a Complaint.” In order to rely on these models, the models need to be validated to prove they work as intended. One challenge is that validating these models can be very manual and time consuming and the dataset can be limited.
-
 ### Basic Information
 
 * **Person or organization developing model**: GWU Wells Fargo Generative AI Team (Stephanie Palanca, Joon Kyu Hong, Kathleen McQuiddy, Ian Kang) 
@@ -18,7 +15,10 @@ Financial institutions can better serve customers by understanding customer comp
 * **Objective**: Providing practical experience in LLMs and Prompt Engineering projects for educational purposes.
 * **Intended Users** : Wells Fargo Team, Patrick Hall, and GWU Students in DNSC 6317
 * **Additional Information** : Valuable educational resource for GWU students.
-  
+
+### Background :
+Enhancing customer service within financial institutions involves a comprehensive understanding of customer complaints. An integral aspect of this comprehension is ensuring the accurate categorization and directed resolution of written complaints through effective routing to the relevant teams. Employing Natural Language Processing (NLP) models for the classification of potential customer complaints, such as distinguishing between "Serious Complaints," "Minor Complaints," or instances categorized as "Not a Complaint," is a valuable strategy. However, validating the functionality of these models poses a challenge, given the manual and time-intensive nature of the process, compounded by potential limitations in the dataset.
+
 ### Data
 
 * Data dictionary: This dataset captures consumer complaints submitted to the Consumer Financial Protection Bureau (CFPB), detailing information such as the date received, type of financial product involved, specific issues raised, and the company's response. It provides insights into consumer experiences with financial products and services, aiding in the analysis of industry trends and regulatory oversight.
