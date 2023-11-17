@@ -109,8 +109,10 @@
       * Complaints that are generally well written - DESIRABLE
       * Complaints with very poor grammar and punctuation - PROBLEMATIC
       * Complaints with frivolous, unrelated information - PROBLEMATIC
-      Based on this, we had this idea: Have we focus on just the invariance and robustness aspects related to these “problematic” complaints and focus on questions like “Can the right LLM with the right prompt ‘clean up’ these problematic           complaints?” In other words, can an LLM correct the poor grammar and punctuation without changing the meaning (invariance) and can an LLM identify the frivolous content of a complaint (robustness)?
-     * Different types of prompts:
+     
+    * Based on this, we had this idea: Have we focus on just the invariance and robustness aspects related to these “problematic” complaints and focus on questions like “Can the right LLM with the right prompt ‘clean up’ these problematic           complaints?” In other words, can an LLM correct the poor grammar and punctuation without changing the meaning (invariance) and can an LLM identify the frivolous content of a complaint (robustness)?
+
+   * Different types of prompts:
        Prompt for Robustness Testing, Prompt for Equal Complaint Synthesis (MFT), Prompt for Harshness Modification (Direction):
 
 ### Model Performance 
