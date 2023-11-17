@@ -114,10 +114,11 @@ Enhancing customer service within financial institutions involves a comprehensiv
   * Generation: The output text is generated one token at a time, and the model selects the most likely token to add to the sequence.
   * Training: The model is trained on a large corpus of text data, and it learns to predict the next token in a sequence.
 
-* **There are some other important components of LLaMA 2**:
-  * A combination of a transformer encoder and a recurrent neural network (RNN) decoder,
-  * LLaMA-2 has a smaller model size than other LLMs, with around 120 million parameters
-  * LLaMA-2 is trained on a combination of masked language modeling, next sentence prediction, and a few other tasks
+* **Distinctive Advantages  of LLaMA 2**:
+  * A combination of a transformer encoder and a recurrent neural network (RNN) decoder
+  * LLaMA-2 has a smaller model size than other LLMs
+  * LLaMA-2 is more general-purpose and can be fine-tuned for a wide range of NLP tasks, such as text classification, sentiment analysis, question answering, and more.
+  * LLaMA-2 is designed to be flexible and adaptable, allowing it to be fine-tuned for a wide range of NLP tasks and domains, making it a powerful tool for a variety of applications.
   
 * **The Main Goal - Synthesize Complaints**:
    * The initial exploratory analysis identified three types of complaints:
