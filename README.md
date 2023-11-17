@@ -80,22 +80,26 @@
   
 ### Exploratory Data Analysis 
 
-#### Correlation Heatmap
-* **Basic correlation from our data.**
+#### Table of sample complaints
+* **Sample Complaints dataset with issues and consumer complaint narrative.**
   
-![Correlation Heatmap](images/Correlation.png)
+![Sample Complaints dataset](images/sample dataset from top 5 banks.png)
 
-#### Correlation Heatmap
-* **Basic correlation from our data.**
+#### Bar Chart 
+* **It highlights the ten most prevalent issues identified within complaints filed against banks.**
   
-![Correlation Heatmap](images/Correlation.png)
+![Bar Chart](images/Top 10 Most Common Issues Among Complaints at Banks.png)
 
-#### Correlation Heatmap
-* **Basic correlation from our data.**
+#### Pie Chart
+* **It illustrates the distribution of complaints among the top five banks.**
   
-![Correlation Heatmap](images/Correlation.png)
+![Pie Chart](images/Distribution of Complaints Among Top 5 Banks.png)
+
+#### Common Words from Complaints
+* **A visual representation using a word cloud of randomly sampled consumer complaint narratives.**
+  
+![Word Cloud](images/Word Cloud of Randomly Sampled Consumer Complaint Narratives.png)
 ### Methodology 
-
 
 ### Model Performance 
 
