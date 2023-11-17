@@ -50,34 +50,34 @@
   
 ### Model Details 
 
-#### Type of model 1**: Llama 2 7B (API)
+#### Type of model 1: Llama 2 7B (API)
 * **Software used to implement the model**: Python, xgboost
 * **Version of the modeling software**: 3.10.9, 1.7.5
 
-#### Type of model 2**: Llama 2 7B (Chat)
+#### Type of model 2: Llama 2 7B (Chat)
 * **Software used to implement the model**: Python, Together, langchain , Llama 2 7B
 * **Version of the modeling software**: 3.10.2, 1.0.0 , 0.0.327, 2.7b
 
-#### Type of model 3**: Falcon
+#### Type of model 3: Falcon
 * **Software used to implement the model**: Python, xgboost
 * **Version of the modeling software**: 3.10.9, 1.7.5
 
-#### Type of model 4**: Red Pajama
+#### Type of model 4: Red Pajama
 * **Software used to implement the model**: Python, xgboost
 * **Version of the modeling software**: 3.10.9, 1.7.5
 
-#### Type of model 5**: Red Pajama
+#### Type of model 5: Red Pajama
 * **Software used to implement the model**: Python, xgboost
 * **Version of the modeling software**: 3.10.9, 1.7.5
 
-#### Type of model 6**: Mistral
+#### Type of model 6: Mistral
 * **Software used to implement the model**: Python, xgboost
 * **Version of the modeling software**: 3.10.9, 1.7.5
 
-#### Type of model 7**: GPT 3.5 Turbo
+#### Type of model 7: GPT 3.5 Turbo
 * **Software used to implement the model**: Python, openai
 * **Version of the modeling software**: 3.10.2, 3.5
-* 
+  
 ### Exploratory Data Analysis 
 
 #### Correlation Heatmap
