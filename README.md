@@ -1,6 +1,9 @@
 # Generative AI Practicum Project - GWU MSBA Fall 2023 Model Card
 ## Generating datasets for validating complaint-classification NLP Models
 
+### Background :
+Financial institutions can better serve customers by understanding customer complaints. One part of better understanding customer complaints is to make sure written complaints are properly categorized and routed to the proper team for action. Part of this is accomplished or could be accomplished using natural language processing (NLP) models to classify potential customer complaints. For example, an NLP model may be able to classify a paragraph of text as a “Serious Complaint, a “Minor Complaint,” or “Not a Complaint.” In order to rely on these models, the models need to be validated to prove they work as intended. One challenge is that validating these models can be very manual and time consuming and the dataset can be limited.
+
 ### Basic Information
 
 * **Person or organization developing model**: GWU Wells Fargo Generative AI Team (Stephanie Palanca, Joon Kyu Hong, Kathleen McQuiddy, Ian Kang) 
@@ -121,7 +124,7 @@
   * LLaMA-2 has a smaller model size than other LLMs, with around 120 million parameters
   * LLaMA-2 is trained on a combination of masked language modeling, next sentence prediction, and a few other tasks
   
-* **Synthesize Complaints**:
+* **The Main Goal - Synthesize Complaints**:
    * The initial exploratory analysis identified three types of complaints:
       * Complaints that are generally well written - DESIRABLE
       * Complaints with very poor grammar and punctuation - PROBLEMATIC
@@ -129,7 +132,7 @@
      
     * Based on this, we had this idea: Have we focus on just the invariance and robustness aspects related to these “problematic” complaints and focus on questions like “Can the right LLM with the right prompt ‘clean up’ these problematic           complaints?” In other words, can an LLM correct the poor grammar and punctuation without changing the meaning (invariance) and can an LLM identify the frivolous content of a complaint (robustness)?
 
-   * Different types of prompts:
+   * Different types of prompts we experimented:
        Prompt for Robustness Testing, Prompt for Equal Complaint Synthesis (MFT), Prompt for Harshness Modification (Direction):
 
 ### Model Performance 
