@@ -50,7 +50,7 @@
   
 ### Model Details 
 
-#### Type of model 1: Llama 2 7B (API)
+#### Type of model 1: Llama 2 7B (API) - Main Model
 * **Software used to implement the model**:
 * **Version of the modeling software**: 
 
@@ -102,8 +102,25 @@
 
 ### Methodology 
 
-* **Software used to implement the model**:
+* **Basic process of complaint generation using a large language model**:
 
+  * Tokenization: The first step is to convert the input text into tokens. Tokenization is the process of breaking down the text into individual words or subwords. Subwords are smaller units of text that can be combined to form words. For example, the word "unrecognizable" can be broken down into its subwords - "un-rec-og-niz-able".
+
+  * Embeddings: Once the text has been tokenized, the next step is to create embeddings for each token. Embeddings are vector representations of the tokens that capture their semantic meaning. The embeddings are learned during the training process and are used to feed the input text into the model.
+
+  * Encoding: The embeddings are then fed into the encoder, which is a stack of transformer layers. The transformer layers use self-attention mechanisms to process the input sequence of tokens and generate a continuous representation of the input text. The output of the encoder is a sequence of hidden states that capture the context and meaning of the input text.
+
+  * Decoding: The decoder is responsible for generating the output text. The decoder also consists of a stack of transformer layers, and it takes the output of the encoder as input. The decoder generates the output text one token at a time, using a process called autoregressive decoding. At each step, the decoder generates a probability distribution over the possible tokens that could come next in the sequence, and it selects the most likely token to add to the output sequence.
+
+  * Generation: The final step is to generate the output text. The decoder generates the output text one token at a time, using the probability distribution generated in the previous step. The output text is then passed through a linear layer and a softmax activation function to generate a probability distribution over the possible tokens. The model then selects the most likely token to add to the output sequence.
+
+  * Training: During training, the model is trained to minimize a loss function that measures the difference between the predicted output and the actual output. The model is trained on a large corpus of text data, and the loss function is calculated for each token in the output sequence.
+
+* **There are some other important components of LLaMA 2**:
+  * A combination of a transformer encoder and a recurrent neural network (RNN) decoder,
+  * LLaMA-2 has a smaller model size than other LLMs, with around 120 million parameters
+  * LLaMA-2 is trained on a combination of masked language modeling, next sentence prediction, and a few other tasks
+  
 * **Synthesize Complaints**:
    * The initial exploratory analysis identified three types of complaints:
       * Complaints that are generally well written - DESIRABLE
