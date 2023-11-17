@@ -7,7 +7,7 @@
 * **Model date**: December, 2023
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation codes**: [Final_Code](Codes)
+* **Model implementation codes**: [final_codes](final_codes)
 
 ### Intended Use
 
