@@ -83,22 +83,22 @@
 #### Table of sample complaints
 * **Sample Complaints dataset with issues and consumer complaint narrative.**
   
-![Sample Complaints dataset](images/sample dataset from top 5 banks.png)
+![Sample Complaints dataset](images/sample dataset from top 5 banks.png).
 
 #### Bar Chart 
 * **It highlights the ten most prevalent issues identified within complaints filed against banks.**
   
-![Bar Chart](images/Top 10 Most Common Issues Among Complaints at Banks.png)
+![Bar Chart](images/Top 10 Most Common Issues Among Complaints at Banks.png).
 
 #### Pie Chart
 * **It illustrates the distribution of complaints among the top five banks.**
   
-![Pie Chart](images/Distribution of Complaints Among Top 5 Banks.png)
+![Pie Chart](images/Distribution of Complaints Among Top 5 Banks.png).
 
 #### Common Words from Complaints
 * **A visual representation using a word cloud of randomly sampled consumer complaint narratives.**
   
-![Word Cloud](images/Word Cloud of Randomly Sampled Consumer Complaint Narratives.png)
+![Word Cloud](images/Word Cloud of Randomly Sampled Consumer Complaint Narratives.png).
 ### Methodology 
 
 ### Model Performance 
