@@ -54,7 +54,7 @@ Enhancing customer service within financial institutions involves a comprehensiv
 ### Model Details 
 
 #### Type of model 1: Llama 2 7B (API) - Main Model
-* **Software used to implement the model**:
+* **Software used to implement the model**: Python, AWS SageMaker, Llama 2 7b - Instruct
 * **Version of the modeling software**: 
 
 #### Type of model 2: Llama 2 7B (Chat)
@@ -69,12 +69,12 @@ Enhancing customer service within financial institutions involves a comprehensiv
 * **Software used to implement the model**: 
 * **Version of the modeling software**: 
 
-#### Type of model 5: Red Pajama
-* **Software used to implement the model**: 
+#### Type of model 5: PaLM
+* **Software used to implement the model**: Python, PaLM, Google Colab
 * **Version of the modeling software**:
 
 #### Type of model 6: Mistral
-* **Software used to implement the model**: 
+* **Software used to implement the model**: Python, AWS SageMaker, Mistral 7.5B
 * **Version of the modeling software**: 
 
 #### Type of model 7: GPT 3.5 Turbo
@@ -134,6 +134,14 @@ Enhancing customer service within financial institutions involves a comprehensiv
 **Examples of generated complaints by each large language model**
 
 #### Type of model 1: Llama 2 7B (API) - Main Model
+* **Original complaint**:
+
+* **Equal Complaint Synthesis**:
+
+* **Less Harsh**:
+
+* **More Harsh**:
+
 
 #### Type of model 2: Llama 2 7B (Chat)
 
@@ -150,13 +158,38 @@ Enhancing customer service within financial institutions involves a comprehensiv
 "I am outraged and appalled by the recent inquiries made on my credit report by CBNA, despite my explicit denial of any authorization. Not only is this a blatant violation of my privacy and security, but it also undermines my hard-earned credit score. I demand immediate action to remove these fraudulent inquiries and protect my personal information. I will not hesitate to take legal action if necessary, and I expect a prompt resolution to this matter. How dare you attempt to sully my good name and creditworthiness? I will not be ignored!"
 
 #### Type of model 3: Falcon
+* **Original complaint**:
+
+* **Equal Complaint Synthesis**:
+
+* **Less Harsh**:
+
+* **More Harsh**:
+
 
 
 #### Type of model 4: Red Pajama
+* **Original complaint**:
+
+* **Equal Complaint Synthesis**:
+
+* **Less Harsh**:
+
+* **More Harsh**:
 
 
-#### Type of model 5: Red Pajama
+#### Type of model 5: PaLM
+* **Original complaint**:
+ 'XXXX XXXX, Financial Sales, XXXX XXXX, XXXX XXXX XXXX XXXX, XXXX XXXX, CA ; Telephone # ( XXXX ) XXXX, allegedly submitted vehicle loan applications without my authorization to CapitalOne Auto Finance ( reference number XXXX ) and XXXX XXXX XXXX XXXX ( # XXXX ). I had already purchased a car with my own financing. XXXX XXXX mislead me by stating " it is the company policy to run a credit check on every customer purchasing a vehicle, even though they do not need financing assistance from us \'\' to allow them to run my credit. XXXX XXXX, 2016, I became aware of the problem because the denial letters from the financing agencies arrived. I met with the Sales Manager, XXXX XXXX regarding this matter, requesting that the credit bureau agencies are notified and inquires removed. I am seeking your assistance with this fraudulent activity. I want the damage to my credit score from inquiries to be immediately removed. I did not authorize these transactions.'
 
+* **Equal Complaint Synthesis**:
+You have not given me proof that your office is compliant with the FCRA. Show me proof that the inquiries in Exhibit C are compliant. All items in Exhibit B are fraudulent, invalid, and not supported by evidence. You are damaging my creditworthiness by listing these fraudulent inquiries.
+
+* **Less Harsh**:
+Your report contains fraudulent inquiries and inaccurate information. Please fix it.
+
+* **More Harsh**:
+Your report is full of fraudulent inquiries and inaccurate information. You are damaging my character and creditworthiness. Fix it now!
 
 #### Type of model 6: Mistral
 
