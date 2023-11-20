@@ -135,12 +135,16 @@ Enhancing customer service within financial institutions involves a comprehensiv
 
 #### Type of model 1: Llama 2 7B (API) - Main Model
 * **Original complaint**:
+'Please refer my previous CFPB complainat " XXXX \'\' on XX/XX/2021. \nI have Citibank \'s Interest checking account. Got an email from Citigroup which stated that for any direct deposits, I will get upto 2 % cash back ( up to {$100.00} ). I have direct deposit of my salary two times of {$2500.00} each duringXX/XX/2021 ( one on XX/XX/XXXX and another one on XX/XX/2021 - both {$2500.00} ) on after following this promotion all the conditions. But I haven\'t received {$100.00} for these direct deposit activities. I can not keep this account open forever to get this {$100.00} as during pandemic my money ( {$5000.00} ) in this account is blocked ( very low interest rates ). Dealing with totally inefficient Citibank customer service is good for nothing. Already talked to them for at least 3 times via chat regarding the same issue. This bank is so large and inefficient that left hand doesn\'t know what right hand is doing. Customer service is just looking to pass the buck from one team/person to another. \nCiti just want to block the money for dubious promotions plus terms and conditions. Citi will keep on moving the goal post like this. \n\n\nCiti stated in their response that : However, if you would like to continue participating in this promotion please complete two additional direct deposits, one in the month of XXXX, and one in XXXX. Thereafter, if the remaining terms and conditions are met the 2 % cash back bonus ( up to {$100.00} ) would be applied to your account ending in XXXX on or before XX/XX/2021. \n\nEven after meeting that condition I haven\'t got {$100.00} cash back bonus.',
 
 * **Equal Complaint Synthesis**:
+1 {'generated_text': " Complaint:\n\nI have been a customer of Citibank for over a year now and have been a loyal member of their customer base. However, I recently received an email from Citigroup stating that for any direct deposits made into my interest checking account, I would receive up to 2% cash back (up to $100). I have made two direct deposits of my salary, each amounting to $2500, during the month of XX/XX/2021 (one on XX/XX/2021 and another one on XX/XX/2021). Despite meeting all the conditions, I have not received the $100 cash back bonus.\n\nI have tried to contact Citibank's customer service multiple times, but the response has been inadequate. They have simply passed the buck from one team to another without resolving the issue. It is unacceptable that I have been left with a checking account that is blocked due to low interest rates, and I have not received the cash back bonus that I was promised.\n\nI am extremely disappointed in the inefficiency and lack of transparency shown by Citibank"}
 
 * **Less Harsh**:
+{'generated_text': " Complaint 1: Less Harsh\n\nI'm writing to express my disappointment with Citibank's interest checking account. I received an email about a 2% cash back promotion, but after making two direct deposits of my salary, I haven't received the bonus. Despite my multiple attempts to contact customer service, I haven't received a resolution. I'm frustrated with the bank's inefficiency and lack of communication.
 
 * **More Harsh**:
+Complaint 2: More Harsh\n\nI can't believe that Citibank would intentionally mislead their customers about a promotion. I made two direct deposits of my salary to receive a 2% cash back bonus, but I haven't received a dime. The bank's customer service is incompetent and unresponsive. I've tried to resolve this issue multiple times, but the bank's bureaucracy is slow and inefficient. I'm fed up with Citibank and will never do business with them again.
 
 
 #### Type of model 2: Llama 2 7B (Chat)
@@ -192,7 +196,17 @@ Your report contains fraudulent inquiries and inaccurate information. Please fix
 Your report is full of fraudulent inquiries and inaccurate information. You are damaging my character and creditworthiness. Fix it now!
 
 #### Type of model 6: Mistral
+* **Original complaint**:
+'This is a follow-up of complaint XXXX. FIA Card Services has never sent me their definition of " cash equivalent '' or anything else. In addition, to harass me further, the last statement included a " minimum interest charge '' of {$1.00}. I owe them nothing and that charge was so absurd that their automated line took it off. FIA cheat and lies and is totally irresponsible. There should be some penalties or they should at least tell the truth. They record their calls so al this can be easily verified.''
 
+* **Equal Complaint Synthesis**:
+1. I am writing to follow up on my previous complaint about FIA Card Services. Despite repeated attempts, they have not provided me with their definition of "cash equivalent." Furthermore, their last communication included a "minimum interest charge" of $1.00, which I find unjustified. I owe them nothing, and this charge was so unreasonable that their automated system removed it. FIA is dishonest and untrustworthy, and they need to be held accountable. There should be consequences for their actions, and they should be transparent about their practices.
+   
+* **Less Harsh**:
+Less Harsh: FIA Card Services could improve their communication by sending a clearer definition of "cash equivalent." I appreciate their efforts to minimize further harassment by taking off the incorrect minimum interest charge.
+
+* **More Harsh**:
+FIA Card Services is truly irresponsible for their actions in this matter. Their lack of transparency and honesty is unacceptable. I demand penalties for their actions and hope that they will take steps to prevent similar situations from happening in the future.
 
 #### Type of model 7: GPT 3.5 Turbo
 
