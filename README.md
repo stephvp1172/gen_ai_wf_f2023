@@ -244,16 +244,16 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 * We proceeded to calculate repetability (within the same evaluator) and reproducability (between different evaluators) using an analysis of variance (ANOVA) method. We used Minitab, which is a statistical software). 
 
 #### Model Evaluation: Sensibility 
-![images/Screen Shot 2023-11-20 at 5.22.38 PM.png][https://github.com/stephvp1172/wells_fargo/blob/9c91eecde69ea0de1dec8d7a5f689d19a176314b/images/Screen%20Shot%202023-11-20%20at%205.22.38%20PM.png]
+![images/Screen Shot 2023-11-20 at 5.22.38 PM.png]
 
 #### Model Evaluation: Truthfulness
-![images/Screen Shot 2023-11-20 at 5.29.44 PM.png][https://github.com/stephvp1172/wells_fargo/blob/9c91eecde69ea0de1dec8d7a5f689d19a176314b/images/Screen%20Shot%202023-11-20%20at%205.29.44%20PM.png]
+![images/Screen Shot 2023-11-20 at 5.29.44 PM.png]
 
 #### Model Evaluation: Tone/Harshness
-![images/Screen Shot 2023-11-20 at 5.29.58 PM.png][https://github.com/stephvp1172/wells_fargo/blob/9c91eecde69ea0de1dec8d7a5f689d19a176314b/images/Screen%20Shot%202023-11-20%20at%205.29.58%20PM.png]
+![images/Screen Shot 2023-11-20 at 5.29.58 PM.png]
 
 #### Model Evaluation: Evidence 
-![images/Screen Shot 2023-11-20 at 5.22.50 PM.png][https://github.com/stephvp1172/wells_fargo/blob/9c91eecde69ea0de1dec8d7a5f689d19a176314b/images/Screen%20Shot%202023-11-20%20at%205.22.50%20PM.png] 
+![images/Screen Shot 2023-11-20 at 5.22.50 PM.png]
 
 ### Ethical Concerns 
 
