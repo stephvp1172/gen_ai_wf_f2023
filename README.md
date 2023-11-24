@@ -163,12 +163,14 @@ Complaint 2: More Harsh\n\nI can't believe that Citibank would intentionally mis
 
 #### Type of model 3: Falcon
 * **Original complaint**:
+'I have had a simple savings account with Capital one bank for 2 years. I have had {$170.00} deposited in the account. I get the account summary every quarter from the back. I got a letter 2nd Week of XXXX  ' 18 that my account was closed. I was surprised to know that, and I called the bank 's customer service. Customer Service representative said that my account in " abandoned '' and the money was sent to unclaimed funds to the state. XXXX XXXX  did not try to contact me via phone, email or letter about the activity in my account. All I received was one letter saying that my account was closed and funds were submitted to a " State ''. The Customer Service was not able to provide anymore information on how would I go about retrieving my funds back from a " State ''. There was no letter explaining what would be my next steps or what would be the burden of proof to retrieve funds, and how long would it take. This is NOT how a bank is supposed to function. Are our regulations as such that a citizen can not keep funds in a bank for extended period of time without any activity? And isn't the Bank supposed to contact the customer before taking any actions on their accounts?’
 
 * **Equal Complaint Synthesis**:
 
 * **Less Harsh**:
 
 * **More Harsh**:
+'I opened a savings account with Capital One bank in {year} and had {$170.00} deposited into it. However, after two years, I received a letter {week} from the bank that my account had been closed. Not only did Capital One fail to contact me about my account, but they also neglected to inform me of the timeline for retrieving my funds. Furthermore, they have not provided any information on how their abandonment process’
 
 
 
