@@ -163,14 +163,19 @@ Complaint 2: More Harsh\n\nI can't believe that Citibank would intentionally mis
 
 #### Type of model 3: Falcon
 * **Original complaint**:
-'I have had a simple savings account with Capital one bank for 2 years. I have had {$170.00} deposited in the account. I get the account summary every quarter from the back. I got a letter 2nd Week of XXXX  ' 18 that my account was closed. I was surprised to know that, and I called the bank 's customer service. Customer Service representative said that my account in " abandoned '' and the money was sent to unclaimed funds to the state. XXXX XXXX  did not try to contact me via phone, email or letter about the activity in my account. All I received was one letter saying that my account was closed and funds were submitted to a " State ''. The Customer Service was not able to provide anymore information on how would I go about retrieving my funds back from a " State ''. There was no letter explaining what would be my next steps or what would be the burden of proof to retrieve funds, and how long would it take. This is NOT how a bank is supposed to function. Are our regulations as such that a citizen can not keep funds in a bank for extended period of time without any activity? And isn't the Bank supposed to contact the customer before taking any actions on their accounts?’
+'Sent letters to the three major bureaus asking to investigate and provide verification of debt per FCRA. Company failed to validate the debt belongs to me. 
+Letters sent on XX/XX/XXXX, XX/XX/XXXX, XX/XX/XXXX and XX/XX/XXXX I am attaching the paper trail with Certified mail receipt.'
 
 * **Equal Complaint Synthesis**:
+'I am writing to request a validation of the debt from the three major bureaus as per the Fair Credit Reporting Act (FCRA). Unfortunately, I have not received any response or verification from the company regarding the validity of the debt. This is causing me significant distress and financial difficulty.'
+Letters sent on XX/XX/XXXX, XX/XX/XXXX, XX/XX/XXXX and XX/XX/XXXX, I am attaching
 
 * **Less Harsh**:
+'I have been attempting to contact the three major credit bureaus regarding a potential fraudulent debt. I have yet to receive any response or verification from your company regarding the legitimacy of the debt claimed. This is highly concerning, and I kindly request your assistance in resolving this matter.'
+Letters sent on XX/XX/XXXX and XX/XX/XXXX with Certified mail receipts included.'
 
 * **More Harsh**:
-'I opened a savings account with Capital One bank in {year} and had {$170.00} deposited into it. However, after two years, I received a letter {week} from the bank that my account had been closed. Not only did Capital One fail to contact me about my account, but they also neglected to inform me of the timeline for retrieving my funds. Furthermore, they have not provided any information on how their abandonment process’
+'I recently experienced unethical and illegal practices by the company in question. They have continuously failed to validate my debt and have been deliberately deceptive in their communication. Please investigate the matter as soon as possible to ensure that justice is served.'
 
 
 
@@ -279,17 +284,30 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 * All appraisers have medians within a similar range but  one appraiser's measurements are less consistent.
 
 ### Ethical Concerns 
+**Potential negative impacts of using Llama 2 7b** :
+*  The model is not fine-tuned enough to deliver completely unique complaints without changing the meaning of the original complaint
+  * Llama 2 7b focuses solely on the English language, so any complaint in another language would not work
+  * Llama 2 7b can be costly to run
+
+**Potential uncertainties relating to the impacts of using Llama 2 7b** :
+ *  Enhancing your model's robustness should only help the model perform better.
+  * The model needs to be monitored for fairness and robutness
+
+**Any unexpected results encountered during training**: Understanding how to properly shut down the model
 
 ### Risk Considerations 
-* **Describe potential negative impacts of using your group’s best model** : 
-  *  Consider math or software problems:
-
-  * Consider real-world risks: who, what, when and how?: 
-
-* **Describe potential uncertainties relating to the impacts of using your group’s best model**:
-  * Consider math or software problems: 
-
-   * Consider real-world risks: who, what, when and how? 
+ * Computational Resources for training and fine-tuning LLMs
+ * The financial risk of deploying the model incorrectly
+ * Smooth and efficient server setup
+ * Data Quality and Bias 
+    * Ensuring that the synthesized complaints are representative of real customer complaints
     
-* **Describe any unexpected or results encountered during training**:
+ ### Potential Next Steps
+ * Using both API and chat versions of  Llama 2 7 b.
+ * Investing more time on time tuning the model.
+ * Gathering more datasets for model validation.
+ * Developing more comprehensive and diverse benchmarks.
+ * Incorporating metrics that measure unintended biases and ethical considerations.
+ * Including more diverse and representative datasets to reduce biases.
+ * Evaluating models in various real-world scenarios to ensure robustness and generalization.
   
