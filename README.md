@@ -65,19 +65,15 @@ Enhancing customer service within financial institutions involves a comprehensiv
 * **Software used to implement the model**: 
 * **Version of the modeling software**: 
 
-#### Type of model 4: Red Pajama
-* **Software used to implement the model**: 
-* **Version of the modeling software**: 
-
-#### Type of model 5: PaLM
+#### Type of model 4: PaLM
 * **Software used to implement the model**: Python, PaLM, Google Colab
 * **Version of the modeling software**:
 
-#### Type of model 6: Mistral
+#### Type of model 5: Mistral
 * **Software used to implement the model**: Python, AWS SageMaker, Mistral 7.5B
 * **Version of the modeling software**: 
 
-#### Type of model 7: GPT 3.5 Turbo
+#### Type of model 6: GPT 3.5 Turbo
 * **Software used to implement the model**: Python, openai
 * **Version of the modeling software**: 3.10.2, 3.5
   
@@ -178,20 +174,7 @@ Letters sent on XX/XX/XXXX and XX/XX/XXXX with Certified mail receipts included.
 'I recently experienced unethical and illegal practices by the company in question. They have continuously failed to validate my debt and have been deliberately deceptive in their communication. Please investigate the matter as soon as possible to ensure that justice is served.'
 
 
-
-#### Type of model 4: Red Pajama
-* **Original complaint**:
-'Someone has registered with the State of California, unknown to me to receive unemployment benefits. I do not live or work in California, I have no real reason to have been registered with them. I have only been made aware of this because I have received letters from EDD and BOA with information regarding the benefits of the account. No prepaid card was sent to my home. I called the BOA to make them aware of this error and they advised me to reach out to California EDD. I tried to reach out to them by phone, ( which is impossible ) and through through their online portal. I have not received any follow up correspondence from the department, and I feel uneasy making the complaint without support. I would never want to take money from anyone who needed it more than I do. Please if you can, help me to make this right, or point me in the right direction. I do not want to be irresponsible about benefits that I did not request and someone else is hurting.'
-
-* **Equal Complaint Synthesis**:
-
-
-* **Less Harsh**:
-
-* **More Harsh**:
-
-
-#### Type of model 5: PaLM
+#### Type of model 3: PaLM
 * **Original complaint**:
  'XXXX XXXX, Financial Sales, XXXX XXXX, XXXX XXXX XXXX XXXX, XXXX XXXX, CA ; Telephone # ( XXXX ) XXXX, allegedly submitted vehicle loan applications without my authorization to CapitalOne Auto Finance ( reference number XXXX ) and XXXX XXXX XXXX XXXX ( # XXXX ). I had already purchased a car with my own financing. XXXX XXXX mislead me by stating " it is the company policy to run a credit check on every customer purchasing a vehicle, even though they do not need financing assistance from us \'\' to allow them to run my credit. XXXX XXXX, 2016, I became aware of the problem because the denial letters from the financing agencies arrived. I met with the Sales Manager, XXXX XXXX regarding this matter, requesting that the credit bureau agencies are notified and inquires removed. I am seeking your assistance with this fraudulent activity. I want the damage to my credit score from inquiries to be immediately removed. I did not authorize these transactions.'
 
@@ -204,7 +187,7 @@ Your report contains fraudulent inquiries and inaccurate information. Please fix
 * **More Harsh**:
 Your report is full of fraudulent inquiries and inaccurate information. You are damaging my character and creditworthiness. Fix it now!
 
-#### Type of model 6: Mistral
+#### Type of model 4: Mistral
 * **Original complaint**:
 'This is a follow-up of complaint XXXX. FIA Card Services has never sent me their definition of " cash equivalent '' or anything else. In addition, to harass me further, the last statement included a " minimum interest charge '' of {$1.00}. I owe them nothing and that charge was so absurd that their automated line took it off. FIA cheat and lies and is totally irresponsible. There should be some penalties or they should at least tell the truth. They record their calls so al this can be easily verified.''
 
@@ -217,7 +200,7 @@ Less Harsh: FIA Card Services could improve their communication by sending a cle
 * **More Harsh**:
 FIA Card Services is truly irresponsible for their actions in this matter. Their lack of transparency and honesty is unacceptable. I demand penalties for their actions and hope that they will take steps to prevent similar situations from happening in the future.
 
-#### Type of model 7: GPT 3.5 Turbo
+#### Type of model 5: GPT 3.5 Turbo
 
 * **Original complaint**:
 "I have two recent inquires one from XX/XX/2021 and one from XX/XX/2021 from a place called CBNA. This was not done nor authorized by me. When I XXXX this place, its states this place is in New York, I'm in XXXX XXXX, there's nothing this company can do for me. Also, when I called XXXX when I noticed the first inquiry they said this was a credit card inquiry. I have a bank as well as a bank card, if I wanted a credit card I would just go through my bank, I wouldn't even go through the trouble of going somewhere else, let alone applying twice within 2 weeks of the first time. That's just nonsense. A few years ago I filed a police report for identity thief and if needed I can do it again for this. I have been working really hard on my credit and the last thing I need is false / fraudulent information on my report. I would've contacted CBNA but honestly I don't even know where to start, or what to say. What do you say to a company you've never spoke too? However, I will do what needs to be done to get this removed."
