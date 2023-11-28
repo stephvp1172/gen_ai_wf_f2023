@@ -181,8 +181,10 @@ Letters sent on XX/XX/XXXX and XX/XX/XXXX with Certified mail receipts included.
 
 #### Type of model 4: Red Pajama
 * **Original complaint**:
+'Someone has registered with the State of California, unknown to me to receive unemployment benefits. I do not live or work in California, I have no real reason to have been registered with them. I have only been made aware of this because I have received letters from EDD and BOA with information regarding the benefits of the account. No prepaid card was sent to my home. I called the BOA to make them aware of this error and they advised me to reach out to California EDD. I tried to reach out to them by phone, ( which is impossible ) and through through their online portal. I have not received any follow up correspondence from the department, and I feel uneasy making the complaint without support. I would never want to take money from anyone who needed it more than I do. Please if you can, help me to make this right, or point me in the right direction. I do not want to be irresponsible about benefits that I did not request and someone else is hurting.'
 
 * **Equal Complaint Synthesis**:
+
 
 * **Less Harsh**:
 
