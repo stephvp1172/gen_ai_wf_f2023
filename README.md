@@ -16,7 +16,7 @@
 * **Intended Users** : Wells Fargo Team, Patrick Hall, and GWU Students in DNSC 6317
 * **Additional Information** : Valuable educational resource for GWU students.
 
-### Background :
+### Background
 Enhancing customer service within financial institutions involves a comprehensive understanding of customer complaints. An integral aspect of this comprehension is ensuring the accurate categorization and directed resolution of written complaints through effective routing to the relevant teams. Employing Natural Language Processing (NLP) models for the classification of potential customer complaints, such as distinguishing between "Serious Complaints," "Minor Complaints," or instances categorized as "Not a Complaint," is a valuable strategy. However, validating the functionality of these models poses a challenge, given the manual and time-intensive nature of the process, compounded by potential limitations in the dataset.
 
 ### Data
@@ -79,22 +79,22 @@ Enhancing customer service within financial institutions involves a comprehensiv
   
 ### Exploratory Data Analysis 
 
-#### Table of sample complaints
+#### Figure 1
 * **An example of complaints dataset with issues and consumer complaint narrative.**
   
 ![Sample Complaints dataset](images/sample_dataset.png)
 
-#### Bar Chart 
+#### Figure 2
 * **It highlights the ten most prevalent issues identified within complaints filed against banks.**
   
 ![BarChart](images/Top10MostCommonIssues.png)
 
-#### Pie Chart
+#### Figure 3
 * **It illustrates the distribution of complaints among the top five banks.**
   
 ![Pie Chart](images/DistributionofComplaintsAmongTop5Banks.png)
 
-#### Common Words from Complaints
+#### Figure 4
 * **A visual representation using a word cloud of randomly sampled consumer complaint narratives.**
   
 ![Word Cloud](images/Word_Cloud.png)
