@@ -6,7 +6,7 @@
 * **Person or organization developing model**: GWU Wells Fargo Generative AI Team (Stephanie Palanca, Joon Kyu Hong, Kathleen McQuiddy, Ian Kang) 
 * **Model date**: December, 2023
 * **Model version**: 1.0
-* **License**: MIT
+* **License**: Licenses for all our codes
 * **Model implementation codes**: [final_codes](final_codes)
 
 ### Intended Use
