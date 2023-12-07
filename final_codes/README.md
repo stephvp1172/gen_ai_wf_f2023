@@ -1,5 +1,5 @@
 ## Complaints Generator LLMs
-* Generate realistic and diverse complaints with Large Language Models designed for complaint generation for banks. Easily configurable and ready to use. please check more details from model card [model_card](wells_fargo)
+* Generate realistic and diverse complaints with Large Language Models designed for complaint generation for banks. Easily configurable and ready to use. please check more details from [model_card](https://github.com/stephvp1172/wells_fargo/)
 
 ## list of LLMs
 
