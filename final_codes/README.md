@@ -8,7 +8,7 @@
 * Llama 2 7B API:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/Llama2_7b_Instruct_API.ipynb)
 * Llama 2 7B Chat:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/LLaMA2_Chat.ipynb)
 * GPT 3.5 Turbo:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/GPT3_5.ipynb)
-* PaLM:[code]([wells_fargo](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/PaLM.ipynb))
+* PaLM:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/PaLM.ipynb))
 * Falcon:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/Falcon_7b_Instruct_HuggingFace.ipynb)
 * Mistral:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/Mistral_7b_Instruct.ipynb) 
 
