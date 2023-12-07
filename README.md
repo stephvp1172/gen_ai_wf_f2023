@@ -245,7 +245,7 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 * Variability in interquartile range for only one appraiser shows that there may be inconsistency in the way that one of the appraisers measured sensibility. 
 
 #### Model Evaluation: Evidence
-![alt text](https://github.com/stephvp1172/wells_fargo/blob/1e31db48d9ef63a1ee79c2d96e65d336d4b4b3d4/images/Screen%20Shot%202023-11-20%20at%205.22.50%20PM.png)
+![alt text](https://github.com/stephvp1172/wells_fargo/blob/c85e05a991810967eacc6d07814756432e33ea69/images/Sensibility_GageR%26R.png)
 * Like truthfulness, repeatability makes up for a lot of the variation, which shows us that there may be a problem with our measurement system.
 * Consistent measurement precision among different subgroups because, for the most part, appraisers ranges are within control limits.
 * Quantity of complaints does not alter evidence measurement since, similarly to sensibility, we see a relative range within the evidence by complaints chart.
