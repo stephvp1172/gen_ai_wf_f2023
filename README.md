@@ -268,27 +268,18 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 * Truthfulness scores are consistent and stable with the number of complaints, meaning that the number of complaints does not affect how well each appraiser is able to evaluate their set of complaints.
 * All appraisers have medians within a similar range but  one appraiser's measurements are less consistent.
 
-### Ethical Concerns 
-**Potential negative impacts of using Llama 2 7b** :
-
-
-* **Potential uncertainties relating to the impacts of using Llama 2 7b** :
- *  Enhancing your model's robustness should only help the model perform better.
-  * The model needs to be monitored for fairness and robutness.
-
-**Any unexpected results encountered during training**: Understanding how to properly shut down the model
-
 ### Ethical and Risk Considerations 
- *  The model is not fine-tuned enough to deliver completely unique complaints without changing the meaning of the original complaint
+**Potential negative impacts of using Llama 2 7b** :
+ * The model is not fine-tuned enough to deliver completely unique complaints without changing the meaning of the original complaint
  * Llama 2 7b focuses solely on the English language, so any complaint in another language would not work
  * Llama 2 7b can be costly to run
  * Computational Resources for training and fine-tuning LLMs
  * The financial risk of deploying the model incorrectly
-   * **Any unexpected results encountered during training**: Understanding how to properly shut down the model.
+**Any unexpected results encountered during training**: Understanding how to properly shut down the model.
  * Smooth and efficient server setup
  * Data Quality and Bias 
     * Ensuring that the synthesized complaints are representative of real customer complaints
- * **Potential uncertainties relating to the impacts of using Llama 2 7b** :
+**Potential uncertainties relating to the impacts of using Llama 2 7b** :
     * Enhancing your model's robustness should only help the model perform better.
     * The model needs to be monitored for fairness and robutness.
     
