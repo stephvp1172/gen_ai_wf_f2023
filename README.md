@@ -238,14 +238,14 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 
 
 #### Model Evaluation: Sensibility 
-![alt text](https://github.com/stephvp1172/wells_fargo/blob/1e31db48d9ef63a1ee79c2d96e65d336d4b4b3d4/images/Screen%20Shot%202023-11-20%20at%205.22.38%20PM.png)
+![alt text](https://github.com/stephvp1172/wells_fargo/blob/c85e05a991810967eacc6d07814756432e33ea69/images/Sensibility_GageR%26R.png)
 * Since the majority of the variation comes from Repeatability (components of variation chart), our system of measurement may not be reliable. In an ideal scenario, the variation of our ANOVA would mostly come from part-to-part, and not any other factor. 
 * May be an issue with repeatability since there isn't much range with the R chart. 
 * The number of complaints appears not to affect each appraiser's ability to measure sensibility, as we see a normal variation in the sensibility of complaints chart.
 * Variability in interquartile range for only one appraiser shows that there may be inconsistency in the way that one of the appraisers measured sensibility. 
 
 #### Model Evaluation: Evidence
-![alt text](https://github.com/stephvp1172/wells_fargo/blob/c85e05a991810967eacc6d07814756432e33ea69/images/Sensibility_GageR%26R.png)
+![alt text](https://github.com/stephvp1172/wells_fargo/blob/150bb0415131299271a31a7ad6e2996861673519/images/Evidence_GageR%26R.png)
 * Like truthfulness, repeatability makes up for a lot of the variation, which shows us that there may be a problem with our measurement system.
 * Consistent measurement precision among different subgroups because, for the most part, appraisers ranges are within control limits.
 * Quantity of complaints does not alter evidence measurement since, similarly to sensibility, we see a relative range within the evidence by complaints chart.
@@ -253,7 +253,7 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 * The relationship between number of complaints and evidence is not consistent among appraisers since we see a lot of interaction effects in the interaction plot (bottom right).
 
 #### Model Evaluation: Tone/Harshness
-![alt text](https://github.com/stephvp1172/wells_fargo/blob/1e31db48d9ef63a1ee79c2d96e65d336d4b4b3d4/images/Screen%20Shot%202023-11-20%20at%205.29.58%20PM.png)
+![alt text](https://github.com/stephvp1172/wells_fargo/blob/150bb0415131299271a31a7ad6e2996861673519/images/Tone_GageR%26R.png)
 * There may be a flaw in our measurement system since we also see most of the variation in our ANOVA model for tone/harshness coming from repetability.
 * The variation among measurement system for tone/harshness is consistent since datapoints are within control limits, as shown in the R Chart. 
 * Though datapoints are within control limits in the R chart, there is a clear spread between appraisers so it shows that the way we assess tone/harshness may be different from one another.
@@ -261,7 +261,7 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 * There are clear interaction effects in the Complaints * by Appraiser Interaction chart, which shows that number of effects may influence/bias different appraisers.
 
 #### Model Evaluation: Truthfulness
-![alt text](https://github.com/stephvp1172/wells_fargo/blob/1e31db48d9ef63a1ee79c2d96e65d336d4b4b3d4/images/Screen%20Shot%202023-11-20%20at%205.29.44%20PM.png)
+![alt text](https://github.com/stephvp1172/wells_fargo/blob/150bb0415131299271a31a7ad6e2996861673519/images/Truthfulness_Gage%26R.png)
 * There may be inconsistent measurement because repeatability makes up for most of the variation.
 * There are no significant issues with repeatability and appraisers appear to be consistent with measurement.
 * There may be a difference in the way that appraisers interpret and measure truthfulness.
