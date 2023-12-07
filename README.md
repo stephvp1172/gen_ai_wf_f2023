@@ -234,7 +234,7 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 * Each team member will recorded the evaluation scores in a designated spreadsheet.
 
 ##### Step 4: Calculate Repetability and Reproducability 
-* We proceeded to calculate repetability (within the same evaluator) and reproducability (between different evaluators) using an analysis of variance (ANOVA) method. We used Minitab, which is a statistical software). 
+* We proceeded to calculate repetability (within the same evaluator) and reproducability (between different evaluators) using an analysis of variance (ANOVA) method. We used Minitab, which is a statistical software. 
 
 
 #### Model Evaluation: Sensibility 
