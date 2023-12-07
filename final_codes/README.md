@@ -5,12 +5,12 @@
 
 * Explore a variety of LLMs designed for complaints generation:
   
-* Llama 2 7B API:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/Llama2_7b_Instruct_API.ipynb)
-* Llama 2 7B Chat:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/LLaMA2_Chat.ipynb)
-* GPT 3.5 Turbo:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/GPT3_5.ipynb)
-* PaLM:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/PaLM.ipynb))
-* Falcon:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/Falcon_7b_Instruct_HuggingFace.ipynb)
-* Mistral:[code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/Mistral_7b_Instruct.ipynb) 
+* Llama 2 7B API:[example_code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/Llama2_7b_Instruct_API.ipynb)
+* Llama 2 7B Chat:[example_code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/LLaMA2_Chat.ipynb)
+* GPT 3.5 Turbo:[example_code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/GPT3_5.ipynb)
+* PaLM:[example_code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/PaLM.ipynb)
+* Falcon:[example_code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/Falcon_7b_Instruct_HuggingFace.ipynb)
+* Mistral:[example_code](https://github.com/stephvp1172/wells_fargo/blob/main/final_codes/Mistral_7b_Instruct.ipynb) 
 
 ## Contribution
 * Your contributions can make this project even better. Feel free to provide feedback, suggest improvements, or contribute to the codebase. Let's enhance the capabilities of complaint generation together!
