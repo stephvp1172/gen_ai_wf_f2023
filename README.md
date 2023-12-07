@@ -63,15 +63,15 @@ Enhancing customer service within financial institutions involves a comprehensiv
 
 #### Type of model 3: Falcon
 * **Software used to implement the model**: Python, AWS SageMaker, Falcon 7B BF16 - HuggingFace
-* **Version of the modeling software**: 1.0
+* **Version of the modeling software**: 3.10.2, 1.0, 1.7b
 
 #### Type of model 4: PaLM
 * **Software used to implement the model**: Python, PaLM, Google Colab
-* **Version of the modeling software**: 2.0
+* **Version of the modeling software**: 3.10.2, 2.0, 2.340b
 
 #### Type of model 5: Mistral
 * **Software used to implement the model**: Python, AWS SageMaker, Mistral 7.5B 
-* **Version of the modeling software**: 1.0
+* **Version of the modeling software**: 3.10.2, 1.0, 1.7.3b
 
 #### Type of model 6: GPT 3.5 Turbo
 * **Software used to implement the model**: Python, openai
