@@ -3,7 +3,7 @@
 
 ### Basic Information
 
-* **Person or organization developing model**: GWU Wells Fargo Generative AI Team (Stephanie Palanca, Joon Kyu Hong, Kathleen McQuiddy, Ian Kang) 
+* **Person or organization developing model**: GWU Wells Fargo Generative AI Team (Stephanie Palanca, Joon Kyu Hong, Kathleen McQuiddy, Ian Dongyun Kang) 
 * **Model date**: December, 2023
 * **Model version**: 1.0
 * **License**: Licenses for all our codes
@@ -253,7 +253,7 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 * The relationship between number of complaints and evidence is not consistent among appraisers since we see a lot of interaction effects in the interaction plot (bottom right).
 
 #### Model Evaluation: Tone/Harshness
-![alt text](https://github.com/stephvp1172/wells_fargo/blob/150bb0415131299271a31a7ad6e2996861673519/images/Tone_GageR%26R.png)
+![alt text](https://github.com/stephvp1172/wells_fargo/blob/51e4c5782c72d0f2e57dcb5c5bdf3b7b23477c92/images/Tone_GageR%26R.png)
 * There may be a flaw in our measurement system since we also see most of the variation in our ANOVA model for tone/harshness coming from repetability.
 * The variation among measurement system for tone/harshness is consistent since datapoints are within control limits, as shown in the R Chart. 
 * Though datapoints are within control limits in the R chart, there is a clear spread between appraisers so it shows that the way we assess tone/harshness may be different from one another.
