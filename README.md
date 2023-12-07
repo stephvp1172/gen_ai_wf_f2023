@@ -6,14 +6,14 @@
 * **Person or organization developing model**: GWU Wells Fargo Generative AI Team (Stephanie Palanca, Joon Kyu Hong, Kathleen McQuiddy, Ian Dongyun Kang) 
 * **Model date**: December, 2023
 * **Model version**: 1.0
-* **License**: Licenses for all our codes
+* **License**: Licenses for all our codes.
 * **Model implementation codes**: [final_codes](final_codes)
 
 ### Intended Use
 
 * **Business Value**: Improving the accuracy of complaint classification models, enabling financial institutions and regulators to better understand and address consumer concerns.
 * **Objective**: Providing practical experience in LLMs and Prompt Engineering projects for educational purposes.
-* **Intended Users** : Wells Fargo Team, Patrick Hall, and GWU Students in DNSC 6317
+* **Intended Users** : Wells Fargo Team, Patrick Hall, and GWU Students in DNSC 6317.
 * **Additional Information** : Valuable educational resource for GWU students.
 
 ### Background
