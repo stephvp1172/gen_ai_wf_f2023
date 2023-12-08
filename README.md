@@ -240,7 +240,6 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 #### Model Evaluation: Sensibility 
 ![alt text](https://github.com/stephvp1172/wells_fargo/blob/c85e05a991810967eacc6d07814756432e33ea69/images/Sensibility_GageR%26R.png)
 * Since the majority of the variation comes from Repeatability (components of variation chart), our system of measurement may not be reliable. In an ideal scenario, the variation of our ANOVA would mostly come from part-to-part, and not any other factor. 
-* May be an issue with repeatability since there isn't much range with the R chart. 
 * The number of complaints appears not to affect each appraiser's ability to measure sensibility, as we see a normal variation in the sensibility of complaints chart.
 * Variability in interquartile range for only one appraiser shows that there may be inconsistency in the way that one of the appraisers measured sensibility. 
 
@@ -250,7 +249,6 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 * Consistent measurement precision among different subgroups because, for the most part, appraisers ranges are within control limits.
 * Quantity of complaints does not alter evidence measurement since, similarly to sensibility, we see a relative range within the evidence by complaints chart.
 * There may be a bias with how two appraisers measure evidence compared to others, since we see a median that is higher than the other appraisers in the evidence by appraiser chart.
-* The relationship between number of complaints and evidence is not consistent among appraisers since we see a lot of interaction effects in the interaction plot (bottom right).
 
 #### Model Evaluation: Tone/Harshness
 ![alt text](https://github.com/stephvp1172/wells_fargo/blob/51e4c5782c72d0f2e57dcb5c5bdf3b7b23477c92/images/Tone_GageR%26R.png)
@@ -258,7 +256,7 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 * The variation among measurement system for tone/harshness is consistent since datapoints are within control limits, as shown in the R Chart. 
 * Though datapoints are within control limits in the R chart, there is a clear spread between appraisers so it shows that the way we assess tone/harshness may be different from one another.
 * The Tone/Harshness by Complaints chart shows consistent results despite number of complaints.
-* There are clear interaction effects in the Complaints * by Appraiser Interaction chart, which shows that number of effects may influence/bias different appraisers.
+* The relationship between number of complaints and tone/harshness is not consistent among appraisers since we see a lot of interaction effects in the interaction plot (bottom right).
 
 #### Model Evaluation: Truthfulness
 ![alt text](https://github.com/stephvp1172/wells_fargo/blob/150bb0415131299271a31a7ad6e2996861673519/images/Truthfulness_Gage%26R.png)
@@ -266,7 +264,7 @@ Our aim was to gauge the reliability and consistency of our measurement system w
 * There are no significant issues with repeatability and appraisers appear to be consistent with measurement.
 * There may be a difference in the way that appraisers interpret and measure truthfulness.
 * Truthfulness scores are consistent and stable with the number of complaints, meaning that the number of complaints does not affect how well each appraiser is able to evaluate their set of complaints.
-* All appraisers have medians within a similar range but  one appraiser's measurements are less consistent.
+* All appraisers have medians within a similar range but  one appraiser's measurements are less consistent, meaning there may be bias in the way that this appraiser measured truthfulness.
 
 ### Ethical and Risk Considerations 
 
